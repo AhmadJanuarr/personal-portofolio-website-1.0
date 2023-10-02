@@ -665,8 +665,8 @@ video {
   margin-top: 0.25rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.mt-28 {
+  margin-top: 7rem;
 }
 
 .mt-5 {
@@ -675,10 +675,6 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mt-28 {
-  margin-top: 7rem;
 }
 
 .block {
@@ -814,11 +810,6 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(57 62 70 / var(--tw-bg-opacity));
-}
-
 .bg-slate-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
@@ -829,11 +820,6 @@ video {
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
-.bg-slate-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
-}
-
 .bg-transparent {
   background-color: transparent;
 }
@@ -841,11 +827,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
 .fill-current {
@@ -939,12 +920,12 @@ video {
   padding-top: 6rem;
 }
 
-.pt-36 {
-  padding-top: 9rem;
-}
-
 .pt-32 {
   padding-top: 8rem;
+}
+
+.pt-36 {
+  padding-top: 9rem;
 }
 
 .text-center {
@@ -1089,16 +1070,16 @@ video {
   transition-duration: 150ms;
 }
 
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+
 .duration-300 {
   transition-duration: 300ms;
 }
 
 .duration-500 {
   transition-duration: 500ms;
-}
-
-.duration-1000 {
-  transition-duration: 1000ms;
 }
 
 .ease-in-out {
@@ -1336,19 +1317,14 @@ video {
     line-height: 1;
   }
 
-  .lg\:text-6xl {
-    font-size: 3.75rem;
+  .lg\:text-8xl {
+    font-size: 6rem;
     line-height: 1;
   }
 
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
   }
 
   .lg\:shadow-none {
@@ -1364,22 +1340,6 @@ video {
     margin-right: 2rem;
   }
 
-  .xl\:ml-32 {
-    margin-left: 8rem;
-  }
-
-  .xl\:ml-20 {
-    margin-left: 5rem;
-  }
-
-  .xl\:ml-10 {
-    margin-left: 2.5rem;
-  }
-
-  .xl\:mt-20 {
-    margin-top: 5rem;
-  }
-
   .xl\:w-1\/2 {
     width: 50%;
   }
@@ -1390,10 +1350,6 @@ video {
 
   .xl\:max-w-lg {
     max-width: 32rem;
-  }
-
-  .xl\:pl-20 {
-    padding-left: 5rem;
   }
 
   .xl\:pl-32 {
