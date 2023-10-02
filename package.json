@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "nyalakan": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "tailwind": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
